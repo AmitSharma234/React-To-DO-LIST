@@ -13,7 +13,7 @@ function TodoList() {
   function AddTask() {
     if (newTask.trim() !== "") {
       setTasks(prev => [...prev, newTask]); // push new task
-      setNewTask(""); // clear input
+      setNewTask(""); 
     }
   }
 
@@ -25,7 +25,7 @@ function TodoList() {
 
   // Move task up
   function MoveTaskUp(index) {
-    if (index > 0) {                                // FIX: index must be > 0
+    if (index > 0) {                                
       const updatedTask = [...task];
       [updatedTask[index], updatedTask[index - 1]] =
       [updatedTask[index - 1], updatedTask[index]];
@@ -35,7 +35,7 @@ function TodoList() {
 
   // Move task down
   function MoveTaskDown(index) {
-    if (index < task.length - 1) {                  // FIX: correct swap indexes
+    if (index < task.length - 1) {                  
       const updatedTask = [...task];
       [updatedTask[index], updatedTask[index + 1]] =
       [updatedTask[index + 1], updatedTask[index]];
@@ -56,7 +56,6 @@ function TodoList() {
     }}>
 
       <h1 style={{fontSize:"28px",color:"#333",marginBottom:"20px"}}>To-Do-List</h1>
-
       <div style={{display:"flex",gap:"10px",justifyContent:"center",marginBottom:"20px"}}>
         <input
           type="text"
@@ -109,9 +108,7 @@ function TodoList() {
               onClick={() => MoveTaskUp(index)}
               style={{background:"#008000",color:"#fff",border:"none",padding:"6px 10px",marginLeft:"5px",borderRadius:"4px",cursor:"pointer"}}>
               Up
-            </button>git add .
-git commit -m "TaskTrackr initial working version"
-git push -u origin main
+            </button>
 
 
             <button
@@ -126,4 +123,4 @@ git push -u origin main
   );
 }
 
-export default TodoList;
+export default TodoList
