@@ -120,5 +120,3 @@ README.md
 ## License
 
 This project is open-source and free to use for learning or public repositories.
-
----
