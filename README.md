@@ -102,7 +102,7 @@ README.md
 
 - Tasks are stored in component state using `useState`
 - UI updates automatically when state changes
-- User actions (add, delete, complete) trigger state mutations
+- User actions (add, delete, Select) trigger state mutations
 - Components are kept modular for readability and reuse
 
 ---
