@@ -117,6 +117,3 @@ README.md
 
 ---
 
-## License
-
-This project is open-source 
