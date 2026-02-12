@@ -111,7 +111,5 @@ README.md
 
 - LocalStorage persistence
 - Due dates and priority tags
-- Backend with CRUD API
-- Filters (Completed, Pending, All)
-- Drag-and-drop sorting
+- Backend with CRUD A
 
