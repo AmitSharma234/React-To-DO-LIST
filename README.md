@@ -107,9 +107,4 @@ README.md
 
 ---
 
-## Future Enhancements
-
-- LocalStorage persistence
-- Due dates and priority tags
-- Backend with CRUD A
 
