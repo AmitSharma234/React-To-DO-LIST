@@ -115,5 +115,3 @@ README.md
 - Filters (Completed, Pending, All)
 - Drag-and-drop sorting
 
----
-
